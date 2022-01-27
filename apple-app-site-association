@@ -1,0 +1,11 @@
+{
+  "applinks": {
+      "apps": [],
+      "details": [
+         {
+            "appID": "NCXAP6F5G3.com.spbtv.ag.tv.Amedia",
+            "paths": [ "*" ]
+         }
+     ]
+   }
+}
