@@ -1,7 +1,8 @@
 {
   "activitycontinuation": {
     "apps": [
-      "NCXAP6F5G3.com.spbtv.ag.tv.Amedia"
+      "NCXAP6F5G3.com.spbtv.ag.tv.Amedia",
+      "YQ66D929B5.com.spbtv.ag.tv.Amedia"
     ]
   },
   "applinks": {
@@ -9,6 +10,10 @@
     "details": [
       {
         "appID": "NCXAP6F5G3.com.spbtv.ag.tv.Amedia",
+        "paths": [ "*" ]
+      },
+      {
+        "appID": "YQ66D929B5.com.spbtv.ag.tv.Amedia",
         "paths": [ "*" ]
       }
     ]
