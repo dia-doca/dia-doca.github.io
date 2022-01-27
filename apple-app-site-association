@@ -16,6 +16,10 @@
                   "comment": "Matches any URL whose path starts with /watch/"
                },
                {
+                  "/": "/movie/*",
+                  "comment": "Matches any URL whose path starts with /watch/"
+               },
+               {
                   "/": "/series/*",
                   "comment": "Matches any URL whose path starts with /series/*"
                }
