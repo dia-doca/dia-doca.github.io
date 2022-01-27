@@ -17,7 +17,7 @@
                },
                {
                   "/": "/movie/*",
-                  "comment": "Matches any URL whose path starts with /watch/"
+                  "comment": "Matches any URL whose path starts with /movie/"
                },
                {
                   "/": "/series/*",
