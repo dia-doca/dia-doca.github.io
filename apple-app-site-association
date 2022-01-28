@@ -4,7 +4,7 @@
       "apps": [],
       "details": [
          {
-            "appIDs": ["NCXAP6F5G3.com.spbtv.ag.tv.Amedia", "YQ66D929B5.com.spbtv.ag.tv.Amedia"],
+            "appIDs": ["NCXAP6F5G3.com.spbtv.ag.tv.Amedia"],
             "components": [
                 {
                   "#": "no_universal_links",
