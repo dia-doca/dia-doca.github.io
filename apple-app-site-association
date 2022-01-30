@@ -4,14 +4,14 @@
             "caseSensitive": false
         },
         "substitutionVariables": {
-            "content": ["series", "movies"]
+            "content": ["movies"]
         },
         "details": [
             {
                 "appIDs": ["NCXAP6F5G3.com.spbtv.ag.tv.Amedia"],
                 "components": [
                     { "#": "no_universal_links", "exclude": true },
-                    { "/": "/watch/$(content)_$(digit)_?*" }
+                    { "/": "/watch/$(content)_*" }
                 ]
             }
         ]
