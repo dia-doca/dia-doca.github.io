@@ -1,11 +1,5 @@
 {
   "applinks": {
-        "defaults": { 
-            "caseSensitive": false
-        },
-        "substitutionVariables": {
-            "content": ["movies", "series"]
-        },
         "details": [
             {
                 "appIDs": ["NCXAP6F5G3.com.spbtv.ag.tv.Amedia"],
