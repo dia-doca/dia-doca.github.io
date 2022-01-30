@@ -3,9 +3,9 @@
     "substitutionVariables": {
       "content": [ "series" ]
     },
-    "defaults": { "caseSensitive": false },
     "details": [{
       "appIDs": ["NCXAP6F5G3.com.spbtv.ag.tv.Amedia"],
+      "defaults": { "caseSensitive": false },
       "components": [
         { "#": "no_universal_links", "exclude": true },
         { "/": "/watch/$(content)_*" }
