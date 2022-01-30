@@ -1,8 +1,5 @@
 {
   "applinks": {
-    "substitutionVariables": {
-      "content_type": [ "series" ]
-    },
     "details": [{
       "appIDs": ["NCXAP6F5G3.com.spbtv.ag.tv.Amedia"],
       "components": [
