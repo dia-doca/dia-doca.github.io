@@ -3,7 +3,7 @@
         "defaults": { 
             "caseSensitive": false
         },
-        "substitutionVariables: {
+        "substitutionVariables": {
             "content": ["series", "movies"]
         },
         "details": [
