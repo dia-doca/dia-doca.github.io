@@ -1,13 +1,15 @@
 {
   "applinks": {
-        "details": [
-            {
-                "appIDs": ["NCXAP6F5G3.com.spbtv.ag.tv.Amedia"],
-                "components": [
-                    { "#": "no_universal_links", "exclude": true },
-                    { "/": "/watch/*" }
-                ]
-            }
-        ]
-    }
+    "substitutionVariables": {
+      "content": [ "movies", "series" ]
+    },
+    "defaults": { "caseSensitive": false },
+    "details": [{
+      "appIDs": ["NCXAP6F5G3.com.spbtv.ag.tv.Amedia"],
+      "components": [
+        { "#": "no_universal_links", "exclude": true },
+        { "/": "/watch/*" }
+      ]
+    }]
+  }
 }
