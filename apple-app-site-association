@@ -1,14 +1,14 @@
 {
   "applinks": {
     "substitutionVariables": {
-      "content": [ "movies", "series" ]
+      "content": [ "series" ]
     },
     "defaults": { "caseSensitive": false },
     "details": [{
       "appIDs": ["NCXAP6F5G3.com.spbtv.ag.tv.Amedia"],
       "components": [
         { "#": "no_universal_links", "exclude": true },
-        { "/": "/watch/*" }
+        { "/": "/watch/$(content)_*" }
       ]
     }]
   }
