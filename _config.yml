@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: DIA-Doca's page
 description: Sandbox
+include: [".well-known"]
