@@ -3,13 +3,11 @@
     "substitutionVariables": {
       "content_type": [ "movies" ]
     },
-    "details": [
-      {
-        "appIDs": [ "NCXAP6F5G3.com.spbtv.ag.tv.Amedia" ],
-        "components": [
-           { "/": "/watch/$(content_type)_$(digit)_*" }
-         ]
-       }
-     ]
+    "details": [{
+      "appIDs": [ "NCXAP6F5G3.com.spbtv.ag.tv.Amedia" ],
+      "components": [
+         { "/": "/watch/$(content_type)_$(digit)_*" }
+       ]
+     }]
    }
 }
