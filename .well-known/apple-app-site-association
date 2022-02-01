@@ -1,21 +1,15 @@
 {
   "applinks": {
-      "apps": [],
-      "details": [
-         {
-            "appIDs": ["NCXAP6F5G3.com.spbtv.ag.tv.Amedia"],
-            "components": [
-                {
-                  "#": "no_universal_links",
-                  "exclude": true,
-                  "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
-               },
-               {
-                  "/": "/watch/*",
-                  "comment": "Matches any URL whose path starts with /watch/"
-               }
-             ]
-           }
-       ]
+    "substitutionVariables": {
+      "content_type": [ "movies" ]
+    },
+    "details": [
+      {
+        "appIDs": [ "NCXAP6F5G3.com.spbtv.ag.tv.Amedia" ],
+        "components": [
+           { "/": "/watch/$(content_type)_$(digit)_*" }
+         ]
+       }
+     ]
    }
 }
