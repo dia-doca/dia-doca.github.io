@@ -1,12 +1,12 @@
 {
   "applinks": {
     "substitutionVariables": {
-      "content_type": [ "movies" ]
+      "content_type": [ "series" ]
     },
     "details": [{
       "appIDs": [ "NCXAP6F5G3.com.spbtv.ag.tv.Amedia" ],
       "components": [
-         { "/": "/watch/$(content_type)_$(digit)$(digit)$(digit)$(digit)$(digit)_*" }
+         { "/": "/watch/$(content_type)_$(digit)_*" }
        ]
      }]
    }
